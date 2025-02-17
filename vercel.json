@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/servidores.py",
+      "src": "servidores.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/api/servidores",
-      "dest": "/api/servidores.py"
+      "dest": "/servidores.py"
     }
   ]
 }
